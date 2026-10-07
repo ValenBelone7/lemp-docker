@@ -1,2 +1,21 @@
 .env
+.env.*
+!.env.example
 mysql/data/
+
+# Mínimos pedidos (por si se suma Python o Node)
+venv/
+.venv/
+__pycache__/
+node_modules/
+db.sqlite3
+
+# PHP
+vendor/
+
+# Dumps, logs y archivos del editor/sistema
+dumps/
+*.sql.gz
+*.log
+.DS_Store
+.vscode/
